@@ -5,3 +5,12 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+
+bike = Bike.new(brand: "Schwinn", style: "cruiser", price: 10, image_url: "")
+# bike.save
+
+bike = Bike.new(brand: "Diamond Back", style: "mountain bike", price: 12, image_url: "")
+# bike.save
+
+bike = Bike.new(brand: "Huffy", style: "street", price: 8, image_url: "")
+# bike.save

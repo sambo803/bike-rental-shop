@@ -1,0 +1,13 @@
+### get bikes index
+GET http://localhost:3000/bikes.json
+
+### post bikes create
+POST http://localhost:3000/bikes.json
+Content-Type: application/json
+
+{
+  "brand": "Trek II",
+  "style": "e-bike",
+  "price": 18,
+  "image_url": "https://trek.scene7.com/is/image/TrekBicycleProducts/VervePlus2Lowstep_21_28300_B_Primary?$responsive-pjpg$&cache=on,on&wid=1920&hei=1440"
+}
