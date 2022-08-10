@@ -6,8 +6,25 @@ POST http://localhost:3000/bikes.json
 Content-Type: application/json
 
 {
-  "brand": "Trek II",
-  "style": "e-bike",
+  "brand": "Trek III",
+  "style": "E-bike",
   "price": 18,
   "image_url": "https://trek.scene7.com/is/image/TrekBicycleProducts/VervePlus2Lowstep_21_28300_B_Primary?$responsive-pjpg$&cache=on,on&wid=1920&hei=1440"
 }
+
+### get bikes show
+GET http://localhost:3000/bikes/4.json
+
+### patch bikes update
+PATCH http://localhost:3000/bikes/7.json
+Content-Type: application/json
+
+{
+  "brand": "Vector",
+  "style": "hover craft II",
+  "price": 500,
+  "image_url": "http://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQitvwwp5r8nGrwhOr406xy4JAmM_eB8urt_w&usqp=CAU"
+}
+
+### delete bikes destroy
+DELETE http://localhost:3000/bikes/10
